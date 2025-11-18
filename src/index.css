@@ -1,0 +1,52 @@
+/* ----------------------------------------- */
+/* Google Font Import */
+/* ----------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+/* ----------------------------------------- */
+/* CSS Variables / Theme */
+/* ----------------------------------------- */
+:root {
+  --sidebar-bg: #1e1b4b;
+  --navbar-bg: #22205b;
+  --sidebar-hover: #312e81;
+  --text-color: #ffffff;
+  --primary-color: #4f46e5;
+  --radius: 8px;
+}
+
+/* ----------------------------------------- */
+/* Reset / Global Styles */
+/* ----------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background: #f5f5f5;
+}
+
+/* ----------------------------------------- */
+/* App Layout */
+/* ----------------------------------------- */
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-area {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-area {
+  padding: 20px;
+  background-color: #f8f9fa;
+  flex-grow: 1;
+}
