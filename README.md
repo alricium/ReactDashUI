@@ -31,7 +31,7 @@ This project includes a responsive **Sidebar and Navbar** interface developed wi
 1. Depoyu klonlayın ve projeyi başlatın:
 
 ```bash
-git clone https://github.com/miihawkr/ReactDashUI.git
-cd ReactDashUI
+git clone https://github.com/alricium/ReactDashUI.git
+cd project-name
 npm install
 npm start
